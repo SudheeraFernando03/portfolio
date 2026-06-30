@@ -423,3 +423,19 @@ section{
     text-decoration:none;
     word-break:break-all;
 }
+
+footer{
+    background:#0b1120;
+    text-align:center;
+    padding:30px;
+    color:#94a3b8;
+}
+
+footer p{
+    margin:5px 0;
+}
+
+.nav-links a.active{
+    color:#8b5cf6;
+    font-weight:600;
+}
