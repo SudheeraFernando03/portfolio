@@ -216,6 +216,10 @@ body{
     transform: translateY(-5px);
 }
 
+section{
+    min-height: 100vh;
+    padding: 100px 80px;
+}
 
 .about{
     padding:100px 80px;
@@ -336,6 +340,41 @@ body{
 }
 
 .project-card p{
+    color:#cbd5e1;
+    line-height:1.7;
+}
+
+
+.education{
+    padding:100px 80px;
+}
+
+.education-card{
+    background:#1e293b;
+    padding:35px;
+    border-radius:15px;
+    max-width:850px;
+    margin:auto;
+    border-left:5px solid #8b5cf6;
+}
+
+.education-card h3{
+    color:#ffffff;
+    margin-bottom:10px;
+}
+
+.education-place{
+    color:#8b5cf6;
+    font-weight:600;
+    margin-bottom:5px;
+}
+
+.education-year{
+    color:#94a3b8;
+    margin-bottom:20px;
+}
+
+.education-card p{
     color:#cbd5e1;
     line-height:1.7;
 }
